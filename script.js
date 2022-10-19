@@ -66,7 +66,7 @@ inputButton.addEventListener("click", function (e) {
     }
 
     else {
-        warning.innerHTML = msg.italics();
+        warning.innerHTML = msg;
         
         return;
     }
