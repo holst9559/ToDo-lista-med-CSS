@@ -1,0 +1,150 @@
+* {
+    /* font-family: "Montserrat", "sans-serif"; */
+    font-family: Montserrat;
+ }
+ 
+ 
+ html{
+    /* background-color: rgb(255, 172, 180); */
+    background-image: linear-gradient(to bottom, rgb(255, 193, 200), rgb(255, 121, 116));
+    height: 100%;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .container {
+    box-sizing: border-box;
+    width: 960px;
+    height: auto;
+    position: relative;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 20px 4px rgba(121, 120, 120, 0.418); 
+    z-index: 1;
+ }
+
+ h1 {
+    box-sizing: border-box;
+    font-size: 96px;
+    position: relative;
+    font-weight: bolder;
+    font-family: "Times new roman";
+    margin-bottom: -20px;
+    top: 10px;
+    color: black;
+    padding: 20px;
+    margin-top: -4px;
+ }
+
+ p {
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 10px;
+ }
+
+ .main {
+    position: relative;
+    box-sizing: border-box;
+    margin: auto;
+    width: 100%;
+    top: 20px;
+ }
+
+ input {
+    box-sizing: border-box;
+    position: relative;
+    height: 60px;
+    width: 450px;
+    border-radius: 1% / 8%;    
+    border: solid rgba(0, 0, 0, 0.7) 2px;
+    font-size: 30px;
+    font-weight: 500;
+    outline: none;
+ }
+
+ input[type="text"]:focus {
+    border: solid rgba(3, 3, 245, 0.712) 3px;
+ }
+ 
+ .inputButton {
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10%;
+    border: solid rgba(0, 0, 0, 0.596) 1px;
+    color: black;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+    cursor: pointer;
+    height: 60px;
+    width: 100px;
+    top: 2px;
+    left: 10px;
+ }
+
+ ul {
+    background-color: white;
+    list-style: none;
+    padding: 40px;
+ }
+ 
+ li {
+    align-items: center;
+    width: auto;
+    height: 40px;
+    flex-direction: column;
+    background-color: transparent;
+    cursor: pointer;
+    cursor: hand;
+    font-size: 42px;
+    font-weight: 600;
+    padding-bottom: 40px;
+    margin-left: 40px;
+ }
+ 
+ 
+ span:hover {
+    text-decoration: line-through 3px;
+ }
+ 
+ .completed {
+    color: grey; 
+    text-decoration: line-through 3px;
+ }
+ 
+ .inputButton:hover {
+    background-color: rgb(216, 216, 216);
+ }
+ 
+ #warning {
+    color: rgb(180, 50, 50);
+    font-weight: bold;
+    font-size: 22px;
+ }
+ 
+ .tcButton:hover {
+    opacity: 1;
+    cursor: pointer;
+ }
+ 
+ .tcButton {
+   background-image: url(./trashCan.jpg);
+   border: none;
+   opacity: 0.7;
+   position: relative;
+   background-color: white;
+   background-repeat: no-repeat;
+   left: 20px;
+   height: 25px;
+   width: 30px;
+ }
+ 
+ 
+ 
+ 
